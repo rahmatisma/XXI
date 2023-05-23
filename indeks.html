@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Tentang Lebah Ganteng</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="google_style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <a href="indeks.html">
+                    <img src="Lebah ganteng.webp" alt="" class="icon" height="30" width="30">
+                    <span class="description-header"><b>Lebah </b>Ganteng</span>
+                </a>
+            </div>
+
+            <ul class="list-unstyled">
+                <li>
+                    <a href="Now_playing.html">
+                        <img src="play_arrow_FILL0_wght400_GRAD0_opsz48.png" alt="" class="icon">
+                        <span class="description">Now Playing</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Upcoming.html">
+                        <img src="event_upcoming_FILL0_wght400_GRAD0_opsz48.png" alt="" class="icon">
+                        <span class="description">Upcoming</span>
+                    </a>
+                    <a href="theater.html">
+                        <img src="theaters_FILL0_wght400_GRAD0_opsz48.png" alt="" class="icon">
+                        <span class="description">Theaters</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="promotion.html">
+                        <img src="hotel_class_FILL0_wght400_GRAD0_opsz48.png" alt="" class="icon">
+                        <span class="description">Promotions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Berita_film.html">
+                        <img src="newspaper_FILL0_wght400_GRAD0_opsz48.png" alt="" class="icon">
+                        <span class="description">Movie News</span>
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+            <nav class="navbar navbar-default" style="background-color: #006563;">
+                <div class="container-fluid">
+
+                    <div class="navbar-header">
+                        <button type="button" id="sidebarCollapse" class="btn  navbar-btn">
+                            <i class="glyphicon glyphicon-align-left"></i>
+                        </button>
+                    </div>
+
+
+                </div>
+            </nav>
+            <img class="img-responsive" src="https://21cineplex.com//theme/v5/assets/img/detail-cinema-1.jpg" alt="">
+            <br>
+            <p>Cinema XXI berada di bawah naungan PT Nusantara Sejahtera Raya, merupakan kelompok bioskop terbesar di
+                Indonesia yang berdiri sejak tahun 1987. Dengan pengalaman lebih dari 35 tahun di industri hiburan,
+                Cinema XXI berkomitmen untuk senantiasa memberikan pengalaman dan kenyamanan menonton terbaik untuk
+                masyarakat Indonesia. Sampai dengan Maret 2023, Cinema XXI telah menghadirkan 1.235 layar di 230 lokasi
+                bioskop yang tersebar di 71 kota di seluruh Indonesia, dan akan terus berkembang untuk mencapai target
+                2.000 layar dalam lima tahun ke depan.</p>
+            <br>
+            <p>Cinema XXI berkomitmen untuk terus memberikan hiburan berkualitas terbaik dan tanpa kompromi dengan harga
+                terjangkau. Di tahun 2006, Cinema XXI melahirkan m.tix untuk memfasilitasi pemesanan tiket bioskop
+                secara online dan di tahun 2012 telah menghadirkan pengalaman menonton dengan teknologi revolusioner,
+                yaitu IMAX teater. Untuk menyempurnakan pelayanan kepada penonton, telah hadir juga bioskop dengan
+                sistem audio mutakhir "Dolby Atmos" yang kini ada di 62 layar Cinema XXI.</p>
+            <br>
+            <p>Bukan hanya tempat untuk menonton film, tetapi juga rumah kedua untuk menghabiskan waktu bersama keluarga
+                dan teman. Cinema XXI menghadirkan pengalaman menonton yang tak terlupakan untuk hari ini dan esok.
+                Selama tiga tahun berturut-turut pada 2017, 2018, 2019 Cinema XXI telah dianugerahi "World Branding
+                Award" di Kensington, London sebagai Merek Terbaik dalam Kategori Bioskop Hiburan (Nation Tier) dan di
+                awal 2019, Cinema XXI juga telah dianugerahi "Millennials Top Brand Awards" oleh salah satu media
+                pilihan generasi muda Indonesia sebagai pilihan pertama millenials untuk kategori jaringan cinema
+                terkemuka di Indonesia. Tidak berhenti disana, terlepas dari kondisi Pandemi yang dialami, di tahun
+                2020, Cinema XXI telah dinobatkan sebagai "Industry Champion of The Year" oleh Asia Corporate Excellence
+                and Sustainability (ACES) Awards.</p>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap Js CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>

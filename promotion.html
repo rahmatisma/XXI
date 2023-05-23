@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Promotions</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="promotion.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <a href="indeks.html">
+                    <img src="Lebah ganteng.webp" alt="" class="icon" height="30" width="30">
+                    <span class="description-header"><b>Lebah </b>Ganteng</span>
+                </a>
+            </div>
+
+            <ul class="list-unstyled">
+                <li>
+                    <a href="Now_playing.html">
+                        <img src="play_arrow_FILL0_wght400_GRAD0_opsz48.png" alt="" class="icon">
+                        <span class="description">Now Playing</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Upcoming.html">
+                        <img src="event_upcoming_FILL0_wght400_GRAD0_opsz48.png" alt="" class="icon">
+                        <span class="description">Upcoming</span>
+                    </a>
+                    <a href="theater.html">
+                        <img src="theaters_FILL0_wght400_GRAD0_opsz48.png" alt="" class="icon">
+                        <span class="description">Theaters</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="promotion.html">
+                        <img src="hotel_class_FILL0_wght400_GRAD0_opsz48.png" alt="" class="icon">
+                        <span class="description">Promotions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Berita_film.html">
+                        <img src="newspaper_FILL0_wght400_GRAD0_opsz48.png" alt="" class="icon">
+                        <span class="description">Movie News</span>
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+            <nav class="navbar navbar-default" style="background-color: #006563;">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" id="sidebarCollapse" class="btn  navbar-btn">
+                            <i class="glyphicon glyphicon-align-left"></i>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+            <div class="owl-item active" style="width: 270px; margin-right: 20px;">
+                <div class="oc-item">
+                    <div class="iportfolio">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="portfolio-image">
+                                    <a href="https://21cineplex.com/promotions/xxi-caféshake-asik,765.html">
+                                        <img src="https://media.21cineplex.com/webcontent/gallery/pictures/168447847233849_240x360.jpg"
+                                            alt="XXI Café - SHAKE ASIK">
+                                        <div class="promo-overlay">
+                                            <h4>XXI Café - SHAKE ASIK</h4>
+                                            <a href="https://21cineplex.com/promotions/xxi-caféshake-asik,765.html">Grab Now</a>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="portfolio-image">
+                                    <a href="https://21cineplex.com/promotions/xxi-caféspecial-deals,763.html">
+                                        <img src="https://media.21cineplex.com/webcontent/gallery/pictures/16843147603158_240x360.jpg"
+                                            alt="XXI Café - Special Deals">
+                                        <div class="promo-overlay">
+                                            <h4>XXI Café - Special Deals</h4>
+                                            <a href="https://21cineplex.com/promotions/xxi-caféspecial-deals,763.html">Grab Now</a>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="portfolio-image">
+                                    <a href="https://21cineplex.com/promotions/octo-mobilecashback-20-(maks-rp-10000),762.html">
+                                        <img src="https://media.21cineplex.com/webcontent/gallery/pictures/168421067893532_240x360.jpg" alt=" OCTO Mobile - Cashback 20% (Maks. Rp 10,000)">
+                                        <div class="promo-overlay">
+                                            <h4>OCTO Mobile - Cashback 20% (Maks. Rp 10,000)</h4>
+                                            <a href="https://21cineplex.com/promotions/octo-mobilecashback-20-(maks-rp-10000),762.html">Grab Now</a>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap Js CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
+

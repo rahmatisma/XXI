@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Now Playing</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="now_playing.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <a href="indeks.html">
+                    <img src="Lebah ganteng.webp" alt="" class="icon" height="30" width="30">
+                    <span class="description-header"><b>Lebah </b>Ganteng</span>
+                </a>
+            </div>
+
+            <ul class="list-unstyled">
+                <li>
+                    <a href="Now_playing.html">
+                        <img src="play_arrow_FILL0_wght400_GRAD0_opsz48.png" alt="" class="icon">
+                        <span class="description">Now Playing</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Upcoming.html">
+                        <img src="event_upcoming_FILL0_wght400_GRAD0_opsz48.png" alt="" class="icon">
+                        <span class="description">Upcoming</span>
+                    </a>
+                    <a href="theater.html">
+                        <img src="theaters_FILL0_wght400_GRAD0_opsz48.png" alt="" class="icon">
+                        <span class="description">Theaters</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="promotion.html">
+                        <img src="hotel_class_FILL0_wght400_GRAD0_opsz48.png" alt="" class="icon">
+                        <span class="description">Promotions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Berita_film.html">
+                        <img src="newspaper_FILL0_wght400_GRAD0_opsz48.png" alt="" class="icon">
+                        <span class="description">Movie News</span>
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+            <nav class="navbar navbar-default" style="background-color: #006563;">
+                <div class="container-fluid">
+
+                    <div class="navbar-header">
+                        <button type="button" id="sidebarCollapse" class="btn  navbar-btn">
+                            <i class="glyphicon glyphicon-align-left"></i>
+                        </button>
+                    </div>
+
+
+                </div>
+            </nav>
+            <div class="container clearfix">
+                <div class="heading-twenty">
+                    <h3>Now Playing</h3>
+                    <div class="select-twenty">
+                        <select class="custom-select" id="cityChanged">
+                            <option value="79">BALIKPAPAN</option>
+                            <option value="12">BANDUNG</option>
+                            <option value="76">BANJARMASIN</option>
+                            <option value="27">BATAM</option>
+                            <option value="36">BEKASI</option>
+                            <option value="26">BOGOR</option>
+                            <option value="61">CIREBON</option>
+                            <option value="56">DENPASAR</option>
+                            <option value="110">DEPOK</option>
+                            <option value="3">JAKARTA</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="now-playing" class="row topmargin clearfix">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="movie">
+                                <a href="https://21cineplex.com/the-little-mermaid,130507,22LMED.htm">
+                                    <div class="movie-poster">
+                                        <img src="https://media.21cineplex.com/webcontent/gallery/pictures/168260606483760_290x426.jpg"
+                                            alt="The Little Mermaid" width="290" height="426">
+                                    </div>
+                                    <div class="movie-desc">
+                                        <h4>The Little Mermaid</h4>
+                                        <span class="movie-label">
+                                            <img src="https://21cineplex.com//theme/v5/assets/img/icons/labels/su.png"
+                                                alt="SEMUA UMUR">
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="movie">
+                                <a href="https://21cineplex.com/fast-x,130506,23FASX.htm">
+                                    <div class="movie-poster">
+                                        <img src="https://media.21cineplex.com/webcontent/gallery/pictures/168250942193071_290x426.jpg"
+                                            alt="Fast X" width="290" height="426">
+                                    </div>
+                                    <div class="movie-desc">
+                                        <h4>Fast X</h4>
+                                        <span class="movie-label">
+                                            <img src="https://21cineplex.com//theme/v5/assets/img/icons/labels/r13.png"
+                                                alt="R13+">
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="movie">
+                                <a href="https://21cineplex.com/fast-x-(3d),130518,23FAX3.htm">
+                                    <div class="movie-poster">
+                                        <img src="https://media.21cineplex.com/webcontent/gallery/pictures/168250942193071_290x426.jpg"
+                                            alt="Fast X (3D)" width="290" height="426">
+                                    </div>
+                                    <div class="movie-desc">
+                                        <h4>Fast X (3D)</h4>
+                                        <span class="movie-label">
+                                            <img src="https://21cineplex.com//theme/v5/assets/img/icons/labels/r13.png"
+                                                alt="R13+">
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="movie">
+                                <a href="https://21cineplex.com/kajiman,130515,13KAJN.htm">
+                                    <div class="movie-poster">
+                                        <img src="https://media.21cineplex.com/webcontent/gallery/pictures/168361011887837_290x426.jpg"
+                                            alt="Kajiman" width="290" height="426">
+                                    </div>
+                                    <div class="movie-desc">
+                                        <h4>Kajiman</h4>
+                                        <span class="movie-label">
+                                            <img src="https://21cineplex.com//theme/v5/assets/img/icons/labels/r13.png"
+                                                alt="R13+">
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="movie">
+                                <a href="https://21cineplex.com/guardians-of-the-galaxy-vol-3,130470,23GOG3.htm">
+                                    <div class="movie-poster">
+                                        <img src="https://media.21cineplex.com/webcontent/gallery/pictures/168017501031489_290x426.jpg"
+                                            alt="Guardians of the Galaxy Vol. 3" width="290" height="426">
+                                    </div>
+                                    <div class="movie-desc">
+                                        <h4>Guardians of the Galaxy Vol. 3</h4>
+                                        <span class="movie-label">
+                                            <img src="https://21cineplex.com//theme/v5/assets/img/icons/labels/r13.png"
+                                                alt="R13+">
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="movie">
+                                <a href="https://21cineplex.com/hati-suhita,130498,13HSUA.htm">
+                                    <div class="movie-poster">
+                                        <img src="https://media.21cineplex.com/webcontent/gallery/pictures/168179615674860_290x426.jpg"
+                                            alt="Hati Suhita" width="290" height="426">
+                                    </div>
+                                    <div class="movie-desc">
+                                        <h4>Hati Suhita</h4>
+                                        <span class="movie-label">
+                                            <img src="https://21cineplex.com//theme/v5/assets/img/icons/labels/r13.png"
+                                                alt="R13+">
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="movie">
+                                <a href="https://21cineplex.com/evil-dead-rise,130485,23EDRE.htm">
+                                    <div class="movie-poster">
+                                        <img src="https://media.21cineplex.com/webcontent/gallery/pictures/168129580744162_290x426.jpg"
+                                            alt="Evil Dead Rise" width="290" height="426">
+                                    </div>
+                                    <div class="movie-desc">
+                                        <h4>Evil Dead Rise</h4>
+                                        <span class="movie-label">
+                                            <img src="https://21cineplex.com//theme/v5/assets/img/icons/labels/d17.png"
+                                                alt="R17+">
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="movie">
+                                <a href="https://21cineplex.com/hello-ghost,129213,12HGHT.htm">
+                                    <div class="movie-poster">
+                                        <img src="https://media.21cineplex.com/webcontent/gallery/pictures/168360677497665_290x426.jpg"
+                                            alt="Hello Ghost" width="290" height="426">
+                                    </div>
+                                    <div class="movie-desc">
+                                        <h4>Hello Ghost</h4>
+                                        <span class="movie-label">
+                                            <img src="https://21cineplex.com//theme/v5/assets/img/icons/labels/r13.png"
+                                                alt="R13+">
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap Js CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
